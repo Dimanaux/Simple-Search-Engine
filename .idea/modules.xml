@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Cats are robots/Problems-Cats_are_robots.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Cats are robots/Problems-Cats_are_robots.iml" group="Simple_Search_Engine/Problems-Cats_are_robots" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Cats are robots/Problems-Cats_are_robots_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Cats are robots/Problems-Cats_are_robots_main.iml" group="Simple_Search_Engine/Problems-Cats_are_robots" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Cats are robots/Problems-Cats_are_robots_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Cats are robots/Problems-Cats_are_robots_test.iml" group="Simple_Search_Engine/Problems-Cats_are_robots" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Hello!/Problems-Hello!.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Hello!/Problems-Hello!.iml" group="Simple_Search_Engine/Problems-Hello!" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Hello!/Problems-Hello!_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Hello!/Problems-Hello!_main.iml" group="Simple_Search_Engine/Problems-Hello!" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Hello!/Problems-Hello!_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Hello!/Problems-Hello!_test.iml" group="Simple_Search_Engine/Problems-Hello!" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Hello, Java/Problems-Hello,_Java.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Hello, Java/Problems-Hello,_Java.iml" group="Simple_Search_Engine/Problems-Hello,_Java" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Hello, Java/Problems-Hello,_Java_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Hello, Java/Problems-Hello,_Java_main.iml" group="Simple_Search_Engine/Problems-Hello,_Java" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Hello, Java/Problems-Hello,_Java_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Hello, Java/Problems-Hello,_Java_test.iml" group="Simple_Search_Engine/Problems-Hello,_Java" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Symmetrical number/Problems-Symmetrical_number.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Symmetrical number/Problems-Symmetrical_number.iml" group="Simple_Search_Engine/Problems-Symmetrical_number" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Symmetrical number/Problems-Symmetrical_number_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Symmetrical number/Problems-Symmetrical_number_main.iml" group="Simple_Search_Engine/Problems-Symmetrical_number" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/Symmetrical number/Problems-Symmetrical_number_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/Symmetrical number/Problems-Symmetrical_number_test.iml" group="Simple_Search_Engine/Problems-Symmetrical_number" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/The Hello World program/Problems-The_Hello_World_program.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/The Hello World program/Problems-The_Hello_World_program.iml" group="Simple_Search_Engine/Problems-The_Hello_World_program" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/The Hello World program/Problems-The_Hello_World_program_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/The Hello World program/Problems-The_Hello_World_program_main.iml" group="Simple_Search_Engine/Problems-The_Hello_World_program" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problems/The Hello World program/Problems-The_Hello_World_program_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problems/The Hello World program/Problems-The_Hello_World_program_test.iml" group="Simple_Search_Engine/Problems-The_Hello_World_program" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple_Search_Engine.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple_Search_Engine.iml" group="Simple_Search_Engine" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple Search Engine/task/Simple_Search_Engine-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple Search Engine/task/Simple_Search_Engine-task.iml" group="Simple_Search_Engine/Simple_Search_Engine-task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple Search Engine/task/Simple_Search_Engine-task_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple Search Engine/task/Simple_Search_Engine-task_main.iml" group="Simple_Search_Engine/Simple_Search_Engine-task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Simple Search Engine/task/Simple_Search_Engine-task_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Simple Search Engine/task/Simple_Search_Engine-task_test.iml" group="Simple_Search_Engine/Simple_Search_Engine-task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util.iml" group="Simple_Search_Engine/util" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util_main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util_main.iml" group="Simple_Search_Engine/util" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util_test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util_test.iml" group="Simple_Search_Engine/util" />
+    </modules>
+  </component>
+</project>
