@@ -1,9 +1,17 @@
 package search
 
-data class Token(val value: String) {
-    fun matches(word: String): Boolean = value.contains(word, true)
+interface Token {
+    fun matches(word: String): Boolean
+    val value: String
+        get() = toString()
 
-    val keys: List<String> = value.toLowerCase().split(" ")
+    override fun toString(): String
 
-    override fun toString(): String = value
+    companion object {
+        fun from(string: String) = object : Token {
+            override fun toString() = string
+            override fun matches(word: String) =
+                    string.contains(word, true)
+        }
+    }
 }

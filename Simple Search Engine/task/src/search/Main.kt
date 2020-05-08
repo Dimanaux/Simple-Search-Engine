@@ -1,44 +1,47 @@
 package search
 
-import search.menu.Find
-import search.menu.Menu
-import search.menu.PrintAll
-import java.io.File
 import java.util.*
 
 class Main(private val scanner: Scanner) {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-            val data = File(args[1]).readLines()
             val main = Main(Scanner(System.`in`))
-            val tokens = data.map(::Token)
-            val search = Search(tokens)
-            val menu = Menu(Find(search), PrintAll(data))
-            menu.loop(main)
+            val people = main.readInt("Enter the number of people:")
+            val data = main.readLines(people, "Enter all people:")
+            val search = Search(data.map(Token.Companion::from))
+            val queries = main.readInt("Enter the number of search queries:")
+            main.eachLine(queries, "Enter data to search people:") { query ->
+                val result: List<String> = search.find(query)
+                main.putList(result, "Found people:", "No matching people found.")
+            }
         }
     }
 
     fun readInt(hint: String): Int {
-        print(hint)
+        println(hint)
         return readLine().toInt()
     }
 
-    fun readLine(hint: String = ""): String {
-        print(hint)
-        return scanner.nextLine()
-    }
+    fun readLine(): String = scanner.nextLine()
 
-    fun readLines(count: Int, hint: String = ""): List<String> {
-        print(hint)
+    fun readLines(count: Int, hint: String): List<String> {
+        println(hint)
         return MutableList(count) { readLine() }
     }
 
-    fun putList(list: Collection<String>, hint: String = "", failHint: String = "") {
+    fun eachLine(count: Int, hint: String, action: (String) -> Unit) {
+        repeat(count) {
+            println(hint)
+            action(readLine())
+        }
+    }
+
+    fun putList(list: List<String>, hint: String, failHint: String) {
         if (list.isEmpty()) {
-            print(failHint)
+            println(failHint)
         } else {
-            print(hint)
+            println(hint)
         }
         list.forEach(::println)
     }

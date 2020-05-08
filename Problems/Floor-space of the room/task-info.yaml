@@ -1,0 +1,20 @@
+type: code
+files:
+- name: src/shapes/Shape.kt
+  visible: true
+  learner_created: true
+- name: src/shapes/Rectangle.kt
+  visible: true
+  learner_created: true
+- name: src/shapes/Circle.kt
+  visible: true
+  learner_created: true
+- name: src/shapes/Triangle.kt
+  visible: true
+  learner_created: true
+- name: src/Main.java
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/2300
+status: Failed
+record: -1
